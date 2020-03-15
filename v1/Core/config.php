@@ -1,0 +1,43 @@
+<?php
+define("B_PATH","/apico-light/v1/");
+define("C_PATH","Core/");
+define("L_PATH","Lib/");
+define("F_PATH","Features/");
+define("API_PATH","Controllers/");
+define("V_PATH","Views/");
+define("R_PATH","Router/");
+define("RS_PATH","Routes/");
+define("F_PATHS",array(
+    "Data"=>array(
+        "path"=>"Data/",
+        "intery"=>"Data.php",
+        "class"=>"Data",
+        "config"=>"DBConfig.php"
+    ),
+    "User"=>array(
+        "path"=>"User/",
+        "intery"=>"user.php",
+        "class"=>"ApicoUser",
+        "config"=>"UserConfig.php"
+    ),
+    "File"=>array(
+        "path"=>"Files/",
+        "intery"=>"files.php",
+        "class"=>"ApicoFiles",
+        "config"=>"FilesConfig.php"
+    ),
+    "Errors"=>array(
+        "path"=>"Errors/",
+        "intery"=>"apicoErrors.php",
+        "class"=>"ApicoErrors",
+        "config"=>"errorConfig.php"
+    ),
+    "Session"=>array(
+        "path"=>"Session/",
+        "intery"=>"session.php",
+        "class"=>"ApicoSession",
+        "config"=>"config.php"
+    )
+));
+
+?>
